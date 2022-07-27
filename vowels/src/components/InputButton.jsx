@@ -9,7 +9,7 @@ function InputButton(props) {
       }
     return (
         <div>
-            <input id='user-input' type="text" placeholder='Enter word' />
+            <input id='user-input' type="text" placeholder='Enter word here' />
             <button onClick={handleWord}>Submit</button>
         </div>
     )
